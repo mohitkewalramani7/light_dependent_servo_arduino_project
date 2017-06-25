@@ -8,7 +8,7 @@ There are 2 parts to this project:
 
 1) Based on the light emitted on the photoresistor, a 9G servo motor would accordingly rotate. When there is a high intensity of light emitted on the photoresistor, the 9G servo motor would rotate with high speed. When there is a low intensity of light, the 9G servo motor would rotate with a lesser speed. The speed of the 9G servo motor is controlled by delay commands, which are inserted in between each degree advancement of the servo's rotation. A low speed would result in a high delay for each rotation degree of the servo motor and vice-versa. The rotate method is included in the loop() function, so after each iteration of the motor, it will check to see the value that is generated using the photoresistor will be used as the new delay for the 9G Servo to rotate with.
 
-2) An LCD display is also a part of the project. Once the script decides the time by which each degree rotation the 9G servo will be delayed for, it also outputs the delay time to the LCD for the user to see. An example would be "rotation delayed by 9ms" (9 milliseconds). Furthermore, the brightness of the LCD display is controlled by the use of a photoresistor.
+2) An LCD display is also a part of the project. Once the script decides the time by which each degree rotation the 9G servo will be delayed for, it also outputs the delay time to the LCD for the user to see. An example would be "Delay Rotation; By 9 ms" (9 milliseconds). Furthermore, the brightness of the LCD display is controlled by the use of a photoresistor.
 
 # Viewing The Project:
 
